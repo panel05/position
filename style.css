@@ -1,11 +1,21 @@
-
-.legordulo-elem{
+.legordulo-elem {
     display: none;
     position: absolute;
+    z-index: 20;
 }
-.legordulo:hover .legordulo-elem{
+
+.legordulo {
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.legordulo:hover .legordulo-elem {
     display: block;
 }
+
 main {
     max-width: 1000px;
     margin: auto;
@@ -19,10 +29,8 @@ nav>ul {
 
 nav ul a {
     text-decoration: none;
+    display: block;
     color: white;
     background-color: gray;
     padding: 10px;
 }
-
-
-
