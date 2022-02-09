@@ -57,3 +57,10 @@ nav ul a {
 nav ul li {
     width: 200px;
 }
+.le_kep{
+    display: none;
+    position: absolute;
+}
+.alap_kep:hover .le_kep{
+    display: block;
+}
