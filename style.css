@@ -44,11 +44,11 @@ nav {
     padding: 40px 0px 40px 20px;
     float: left;
 }
-
-article .kepek {
+article .rendezes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
+    position: relative;
 }
 
 nav>ul {
@@ -69,11 +69,13 @@ nav ul li {
     width: 200px;
 }
 
-.le_kep {
+.rendezes .le_kep {
     display: none;
     position: absolute;
+    left: 0;
 }
 
 .alap_kep:hover .le_kep {
     display: block;
+    
 }
