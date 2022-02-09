@@ -33,6 +33,7 @@ main {
 article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 nav>ul {
