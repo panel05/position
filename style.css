@@ -1,9 +1,9 @@
 
-.legordulo_elem{
+.legordulo-elem{
     display: none;
     position: absolute;
 }
-.legordulo:hover .legordulo_elem{
+.legordulo:hover .legordulo-elem{
     display: block;
 }
 main {
