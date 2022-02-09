@@ -24,7 +24,6 @@ img {
 
 header {
     background-color: lightblue;
-    height: 100px;
 }
 
 main {
@@ -41,6 +40,10 @@ main {
     background-color: white;
 }
 
+nav {
+    padding: 40px 0px 40px 20px;
+}
+
 article .kepek {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,8 +52,8 @@ article .kepek {
 
 nav>ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10 px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
 }
 
 nav ul a {
@@ -63,4 +66,13 @@ nav ul a {
 
 nav ul li {
     width: 200px;
+}
+
+.le_kep {
+    display: none;
+    position: absolute;
+}
+
+.alap_kep:hover .le_kep {
+    display: block;
 }
