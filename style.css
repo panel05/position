@@ -1,0 +1,7 @@
+.legordulo_elem{
+    display: none;
+    position: absolute;
+}
+.legordulo:hover .legordulo_elem{
+    display: block;
+}
