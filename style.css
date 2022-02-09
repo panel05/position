@@ -17,7 +17,8 @@ nav ul {
 }
 
 img {
-    width: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 header {
@@ -30,9 +31,10 @@ main {
     margin: auto;
 }
 
-article {
+article .kepek {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
 }
 
 nav>ul {
