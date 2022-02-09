@@ -15,18 +15,26 @@ nav ul {
 .legordulo:hover .legordulo-elem {
     display: block;
 }
-header{
+
+img {
+    width: 200px;
+}
+
+header {
     background-color: lightblue;
     height: 100px;
 }
+
 main {
     max-width: 1000px;
     margin: auto;
 }
-article{
+
+article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 nav>ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -40,7 +48,7 @@ nav ul a {
     background-color: gray;
     padding: 10px;
 }
+
 nav ul li {
     width: 200px;
-
 }
