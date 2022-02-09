@@ -16,6 +16,10 @@ nav ul {
     display: block;
 }
 
+img {
+    width: 200px;
+}
+
 main {
     max-width: 1000px;
     margin: auto;
